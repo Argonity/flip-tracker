@@ -1,3 +1,24 @@
-#Flip Tracker
+# README
 
-##My app will be used by someone who is in the process of flipping a house for profit. With this app, the user will be able to keep track of all parts of the project. The user will also be able to input all costs incurred during the project and how it will impact their anticipated sale price and ultimately the profit.
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...

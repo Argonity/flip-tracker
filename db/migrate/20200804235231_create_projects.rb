@@ -4,7 +4,7 @@ class CreateProjects < ActiveRecord::Migration[6.0]
       t.string :street_address
       t.string :city
       t.string :state
-      t.integer :zip_code
+      t.string :zip
       t.string :type
       t.integer :year_built
       t.integer :square_footage

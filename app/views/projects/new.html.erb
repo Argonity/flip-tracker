@@ -1,8 +1,11 @@
 <h1> Create a New Project </h1>
 
 <%= form_for(@project) do |f|%>
-  <%= f.label :nickname %>
-  <%= f.text_field :nickname %>
+
+  <div>
+    <%= f.label :nickname %>
+    <%= f.text_field :nickname %>
+  </div>
 
   <%= f.label :type %>
   <%= f.text_field :type %>

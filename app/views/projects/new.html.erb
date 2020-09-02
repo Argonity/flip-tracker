@@ -1,1 +1,60 @@
 <h1> Create a New Project </h1>
+
+<%= form_for(@project) do |f|%>
+  <%= f.label :nickname %>
+  <%= f.text_field :nickname %>
+
+  <%= f.label :type %>
+  <%= f.text_field :type %>
+
+  <%= f.label :street %>
+  <%= f.text_field :street %>
+
+  <%= f.label :city %>
+  <%= f.text_field :city %>
+
+  <%= f.label :state %>
+  <%= f.text_field :state %>
+
+  <%= f.label :zip %>
+  <%= f.text_field :zip %>
+
+  <%= f.label :year_built %>
+  <%= f.text_field :year_built %>
+
+  <%= f.label :square_footage %>
+  <%= f.text_field :square_footage %>
+
+  <%= f.label :pool %>
+  <%= f.text_field :pool %>
+
+  <%= f.label :garage %>
+  <%= f.text_field :garage %>
+
+  <%= f.label :bedrooms %>
+  <%= f.text_field :bedrooms %>
+
+  <%= f.label :bathrooms %>
+  <%= f.text_field :bathrooms %>
+
+  <%= f.label :purchase_price %>
+  <%= f.text_field :purchase_price %>
+
+  <%= f.label :sale_price %>
+  <%= f.text_field :sale_price %>
+
+  <%= f.label :renovation_budget %>
+  <%= f.text_field :renovation_budget %>
+
+  <%= f.label :profit %>
+  <%= f.text_field :profit %>
+
+  <%= f.label :current_status %>
+  <%= f.text_field :current_status %>
+
+  <%= f.label :description %>
+  <%= f.text_field :description %>
+
+  <%= f.submit "Create Project" %>
+
+<% end %>

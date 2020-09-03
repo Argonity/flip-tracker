@@ -58,6 +58,21 @@
   <%= f.label :description %>
   <%= f.text_field :description %>
 
+  <p><b> Select a Contractor </b></p>
+    <div>
+      <%= f.collection_select :contractor_id, Contractor.all, :id, :name %>
+    </div>
+
+  <p><b> Create a Contractor </b></p>
+    <div>
+      <%= f.fields_for :contractor do |b| %>
+        <%= b.label :name %>
+        <%= b.text_field :name %>
+        <%= b.label :phone_number %>
+        <%= b.text_field :phone_number %>
+      <% end %>
+    </div>
+
   <%= f.submit "Create Project" %>
 
 <% end %>

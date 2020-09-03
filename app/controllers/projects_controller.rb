@@ -7,6 +7,7 @@ end
 
 def create
   @project = Project.new(project_params)
+  @project.user_id = session[:user_id]
     if @project.save
       redirect_to project_path(@project)
     else
